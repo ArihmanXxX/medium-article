@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+html {
+  display: block;
+  background-color: rgb(163, 157, 157);
+}
+
+.banner {
+  background-image: url(https://images.unsplash.com/photo-1615172282427-9a57ef2d142e?q=80&w=2706&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  color: rgb(249, 248, 248);
+  padding: 300px 0;
+  width: auto;
+}
+
+.container {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  -webkit-text-stroke: 0.7px black;
+  width: 700px;
+  margin: 50px auto;
+  @media (max-width: 960px) {
+    .container {
+      width: 700px;
+    }
+  }
+}
+
+h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  -webkit-text-stroke: 1px rgb(96, 94, 94);
+}
+
+h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  -webkit-text-stroke: 1px rgb(27, 26, 26);
+  text-shadow: 10px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  text-align: center;
+  line-height: 1.6;
+}
+
+a:hover {
+  background-color: rgb(116, 183, 23);
+  background-image: linear-gradient(1);
+  box-shadow: 10px 0;
+}
+
+.link-kawasaki {
+  color: green;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: black;
+  border-radius: 50%;
+  padding: 12px;
+  border: 1px solid rgb(90, 246, 7);
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
